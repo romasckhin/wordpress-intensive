@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* section 1 */
+
 
 .promo {
     height: 802px;
@@ -15,6 +15,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 .logo .logo_img {
@@ -106,7 +107,7 @@ h2.title {
     margin-top: 4px;
 }
 
-/* section 2 */
+
 
 .waiting {
     height: 607px;
@@ -163,4 +164,40 @@ h2.title {
 }
 
 
-/* section 3 */
+
+.optimization {
+    min-height: 547px;
+    padding: 108px 0 74px 0
+}
+
+.optimization .optimization_header {
+    font-weight: 900;
+    font-size: 30px;
+    color: #299CBD;
+    margin-left: 389px;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+    margin-left: 389px;
+}
+
+.optimization .optimization_text span {
+     font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -47px;
+    left: -240px;
+    z-index: -1;
+}
+
+
+
+
+
