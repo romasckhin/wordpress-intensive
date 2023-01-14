@@ -6,6 +6,10 @@
 
 
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .promo {
     height: 802px;
     background: url('../img/main_bg.png') center center/cover no-repeat;
